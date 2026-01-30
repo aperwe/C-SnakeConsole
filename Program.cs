@@ -2,8 +2,9 @@ using SnakeGame.Core;
 
 Console.CursorVisible = false;
 Console.Title = "C# Modular Snake";
+Console.Clear();
 
-var engine = new GameEngine(20, 20);
+var engine = new GameEngine(40, 40);
 engine.Run();
 
 Console.SetCursorPosition(0, 21);
